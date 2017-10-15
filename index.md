@@ -1,6 +1,7 @@
 [JSON API spec](http://jsonapi.org/format/) | [GitHub](https://github.com/json-api-php/json-api) 
-# JSON API in PHP 7
 
+# JSON API in PHP 7
+---
 This library is an attempt to express business rules of [JSON API v1.0](http://jsonapi.org/format/) 
 specification in a set of PHP 7 classes. We adhere to the following concepts:
 - Test-first development
@@ -166,7 +167,9 @@ $doc->setLink('last', 'http://example.com/articles?page[offset]=10');
 
 echo json_encode($doc, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 ```
+
 ## API
+
 Please refer to [the tests](https://github.com/json-api-php/json-api/tree/master/test) for the full API documentation:
 * [Documents](https://github.com/json-api-php/json-api/tree/master/test/Document/DocumentTest.php). Creating documents with primary data, errors, and meta. 
 Adding links and API version to a document.
@@ -175,5 +178,7 @@ Adding links and API version to a document.
 * [Resources](https://github.com/json-api-php/json-api/tree/master/test/Document/Resource/ResourceTest.php)
 * [Relationships](https://github.com/json-api-php/json-api/tree/master/test/Document/Resource/Relationship/RelationshipTest.php)
 * [Linkage](https://github.com/json-api-php/json-api/tree/master/test/Document/Resource/Relationship/LinkageTest.php)
+
 ## Installation
+
 `composer require json-api-php/json-api`
