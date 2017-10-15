@@ -1,4 +1,4 @@
-[JSON API spec](http://jsonapi.org/format/) | [GitHub](https://github.com/json-api-php/json-api) 
+[JSON API spec](http://jsonapi.org/format/) :: [GitHub](https://github.com/json-api-php/json-api) 
 
 # JSON API in PHP 7
 
