@@ -1,7 +1,7 @@
 [JSON API spec](http://jsonapi.org/format/) | [GitHub](https://github.com/json-api-php/json-api) 
 
 # JSON API in PHP 7
----
+
 This library is an attempt to express business rules of [JSON API v1.0](http://jsonapi.org/format/) 
 specification in a set of PHP 7 classes. We adhere to the following concepts:
 - Test-first development
