@@ -10,6 +10,7 @@ specification in a set of PHP 7 classes. We adhere to the following concepts:
 ## Example
 
 This JSON response...
+<!-- name=my_json -->
 ```json
 {
     "data": [
@@ -110,10 +111,9 @@ This JSON response...
 }
 ```
 ...can be build with this PHP code
+<!-- assert=output expect=my_json -->
 ```php
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
-
 use JsonApiPhp\JsonApi\Document;
 use JsonApiPhp\JsonApi\Document\Resource\Linkage\MultiLinkage;
 use JsonApiPhp\JsonApi\Document\Resource\Linkage\SingleLinkage;
@@ -175,5 +175,6 @@ Adding links and API version to a document.
 * [Resources](https://github.com/json-api-php/json-api/tree/master/test/Document/Resource/ResourceTest.php)
 * [Relationships](https://github.com/json-api-php/json-api/tree/master/test/Document/Resource/Relationship/RelationshipTest.php)
 * [Linkage](https://github.com/json-api-php/json-api/tree/master/test/Document/Resource/Relationship/LinkageTest.php)
+
 ## Installation
 `composer require json-api-php/json-api`
