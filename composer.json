@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "json-api-php/json-api": "^1.0",
+        "doc2test/doc2test": "dev-master"
+    },
+    "scripts": {
+        "test": "vendor/bin/doc2test && vendor/bin/phpunit -c doc-test/phpunit.xml --coverage-text"
+    }
+}
